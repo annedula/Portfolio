@@ -144,3 +144,18 @@ p {
   padding: 4px;
   width: 40px;
 }
+img {
+  max-width: 100%;
+}
+.gallery {
+  padding: 80px 0;
+}
+.gallery img {
+  padding: 15px;
+  width: 100%;
+  cursor: pointer;
+}
+
+#gallery-modal .modal-img {
+  width: 100%;
+}

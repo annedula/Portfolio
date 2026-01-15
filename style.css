@@ -4,7 +4,7 @@
   height: 600px;
   padding-top: 80px;
 }
-#portfolio {
+#projects {
   height: 500px;
   padding-top: 90px;
 }
@@ -22,7 +22,7 @@
   padding-top: 90px;
 }
 #about,
-#portfolio,
+#projects,
 #contact,
 #services,
 #certifications {
@@ -42,7 +42,7 @@ body {
   background-color: #1f2833;
 }
 #about,
-#portfolio,
+#projects,
 #contact,
 #services,
 #certifications,
@@ -90,7 +90,7 @@ body {
   padding-right: 20px;
   font-family: "Pacifico", sans-serif;
 }
-#portfolio,
+#projects,
 #services {
   text-align: center;
 }
@@ -154,11 +154,20 @@ img {
   padding: 80px 0;
 }
 .gallery img {
-  padding: 15px;
+  padding: 10px;
   width: 100%;
   cursor: pointer;
 }
 
 #gallery-modal .modal-img {
   width: 100%;
+}
+
+.gallery-item {
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.gallery-item:hover {
+  transform: scale(1.05);
 }

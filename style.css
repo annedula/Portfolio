@@ -45,12 +45,15 @@ body {
 #portfolio,
 #contact,
 #services,
-#certifications {
+#certifications,
+#socials {
   background-color: #1f2833;
 }
 
 .navbar-brand,
-.nav-link {
+.nav-link,
+#socials,
+#socials p {
   color: #66fcf1 !important;
 }
 .navbar-brand:hover {
